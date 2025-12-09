@@ -21,7 +21,7 @@ SerialUI has similar functions as Arduino IDE serial monitor and serial plotter.
 | ES8336        | Everest                | Stethoscope | [Audio Tools, Schatzman](https://github.com/pschatzmann/arduino-audio-tools) | Yes | tested |
 | MPRLS0300YG   | Honeywell              | Pressure |  [Sparkfun](https://github.com/sparkfun/SparkFun_MicroPressure_Arduino_Library) | No | to be worked on |
 | ICM20948      | TDK                    | IMU | [Sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) | Yes | need to decide on DMP or custom fusion (AHRS Madgwick) |
-| BMP581        | Bosch                  | Pressure | [Sparkfun/Utzinger](https://github.com/uutzinger/Arduino_BMP581) | Yes | sometimes fails to start in SPI mode
+| BMP581        | Bosch                  | Pressure | [Sparkfun/Utzinger](https://github.com/uutzinger/Arduino_BMP581), [Bosch](https://github.com/boschsensortec/BMP5_SensorAPI) | Yes | sometimes fails to start in SPI mode
 | WS2812B       | World Semi             | Color LED strip | [Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) | Yes | figure out individual pixel animation |
 | SavitzkyGolay | Signal Proc            | Filter | [Utzinger](https://github.com/uutzinger/SavitzkyGolayFilter)| Yes | need to test with PulseOxi data |
 | SHT45-AD1B    | Sensirion              | Humidity, Temperature | [Sensirion](https://github.com/Sensirion/arduino-sht) | Yes |  |

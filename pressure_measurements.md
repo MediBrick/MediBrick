@@ -12,8 +12,9 @@ Pressure in vessel type
 
 For a differential pressure sensor to measure blood pressure we need to be able to measure at least 200 mm Hg. For absolute pressure we would need to add 1033 mbar as max atmospheric pressure at see level.
 
-| Pressure | mm Hg | PSI  | Bar  | meter H2O | hPa  | kPa
-| ---      | ---   | ---  | ---  | ---       | ---  |
+
+| Pressure | mm Hg | PSI  | Bar  | meter H2O | hPa  | kPa |
+| ---      | ---   | ---  | ---  | ---       | ---  | --- |
 | gage     | 200   | 3.9  | 0.27 | 2.7       | 267  | 27
 | gage     | 300   | 5.8  | 0.4  | 4         | 400  | 40
 | absolute | 975   | 18.8 | 1.3  | 13.3      | 1300 | 130

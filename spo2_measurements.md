@@ -15,7 +15,7 @@ However, when partial pressure of oxygen is low such as at high altitude or when
 Luckily we can measure oxygenation of hemoglobin non-invasively because it changes its optical properties when it binds oxygen. For example in the red, oxygenated hemoglobin absorbs less then deoxygenated hemoglobin. This is inverted in the near infrared making those wavelengths ideal for a sensitive measurement approach.
 
 <div style="text-align: left;">
-    <img src=".\SPO2_Board\assets\pulseox.png" width="300"/>
+    <img src=".\\assets\pulseox.png" width="300"/>
 </div>
 
 As we are less interested in the venous oxygenation as compared to the arterial oxygenation, we need to derive a technique to extract the arterial contribution to the optical signal. This is accomplished by measuring the component changing with each heartbeat as the pressure waves extend the arteries and increase the optical path length through arterial blood while the venous blood flow does not results in vessel extension with each heart beat and its contribution the absorption remains constant.
@@ -23,7 +23,7 @@ As we are less interested in the venous oxygenation as compared to the arterial 
 Blood pressure in vessels versus vessel type is illustrated below:
 
 <div style="text-align: left;">
-    <img src=".\SPO2_Board\assets\arterial_pressure.png" alt="Pressure" width="400"/>
+    <img src=".\assets\arterial_pressure.png" alt="Pressure" width="400"/>
 </div>
 
 ## Optical Properties of Hemoglobin
@@ -31,7 +31,7 @@ Blood pressure in vessels versus vessel type is illustrated below:
 The color of tissue and skin can be explained with the optical properties of its main constituents. Here the main interest is Hemoglobin.
 
 <div style="text-align: left;">
-  <img src=".\SPO2_Board\assets\Absorption_Spectra.svg" alt="Spectra" width="800"/>
+  <img src=".\assets\Absorption_Spectra.svg" alt="Spectra" width="800"/>
 </div>
 
 Add graph with logarithmic absorption scale here ...

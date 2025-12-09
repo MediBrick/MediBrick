@@ -4,7 +4,7 @@
 IEC 60601 limits 100 µA maximum dc-leakage current through the body under normal conditions and 500 µA maximum under worst-case, single-fault conditions. An impedance circuit should not exceed that current.
 
 ## Analog Devices AFE
-- [AD5933 12-bit impedance converter ($18)](https://www.analog.com/en/products/ad5933.html) evaluation kit available ($68)
+- [AD5933 12-bit impedance converter](https://www.analog.com/en/products/ad5933.html) evaluation kit available ($68)
 - [User Guide with reference schematics](https://www.analog.com/media/en/technical-documentation/user-guides/UG-364.pdf)
 
 ## Maxim AFE
@@ -16,7 +16,7 @@ IEC 60601 limits 100 µA maximum dc-leakage current through the body under norma
   - GSR (galvanic skin response, stress level)
   - EDA (electro dermal activity)
 
-- [Max 30001G ($10)](https://www.maximintegrated.com/en/products/analog/data-converters/analog-front-end-ics/MAX30001G.html) for Biopotential and Bioimpedance, evaluation kit available ($113)
+- [Max 30001G)](https://www.maximintegrated.com/en/products/analog/data-converters/analog-front-end-ics/MAX30001G.html) for Biopotential and Bioimpedance, evaluation kit available ($113)
 - [Maxim 30009](https://www.maximintegrated.com/en/products/sensors/MAX30009.html) for Bioimpedance, evaluation kit available ($212)
 
 ## AFE Summary
