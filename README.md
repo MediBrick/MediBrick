@@ -65,47 +65,39 @@ Education Content: &#128214;, Sources used to find a solution: &#10004;, Solutio
 - **Electro Cardiogram Solutions**
     - [ECG Measurement](ecg_measurements.md) &#128214;
     - [ECG Solutions](ecg_solutions.md) &#10004;
-    - [ECG MediBrick v1 (not recommended)](ECG_Board_notrecommended/README.md)
-    - [ECG MediBrick v2](Impedance_Potential_Board/README.md) based on MAX30001G &#128194;
-        - [Assembly Instructions](Impedance_Potential_Board/assembly.md) &#128736;
+    - [ECG & BIOZ MediBrick](https://github.com/MediBrick/ECG_BIOZ_Brick) based on MAX30001G &#128194;
 - **Bio Impedance Solutions**
     - [Impedance Measurement](impedance_measurements.md) &#128214;
     - [Impedance Solutions](impedance_solutions.md) &#10004;
-    - [Impedance MediBrick v1 (not recommended)](Impedance_Board_notrecommended/README.md) based on AD5933
-    - [Impedance MediBrick v2](Impedance_Potential_Board/README.md) based on MAX30001G &#128194;
-        - [Assembly Instructions](Impedance_Potential_Board/assembly.md) &#128736;
+    - [Impedance MediBrick (not recommended)](https://github.com/MediBrick/BIOZ_Brick) based on AD5933
 - **Stethoscope and Sound**
     - [Sound Measurement](sound_measurement.md)&#128214;
     - [Pressure Measurement](pressure_measurements.md) &#128214;
     - [Sound Solutions](sound_solutions.md) Sound Recording Solutions &#10004;
     - [Pressure Solutions](pressure_solutions.md) Pressure Recording Solutions &#10004;
-    - [Stethoscope MediBrick V1 (not recommended)](Stethoscope_with_3rdparty_Sound/README.md) PCB Artist I2S codec interfacing with ESP
-    - [Stethoscope with Blood Pressure MediBrick V2](Stethoscope_with_Pressure/README.md) &#128194;
-        - [Assembly Instructions](Stethoscope_with_Pressure/assembly.md) &#128736;
+    - [Stethoscope with Blood Pressure MediBrick](https://github.com/MediBrick/Stethoscope_BP_Brick) &#128194;
 - **Pulse Oximeter**
     - [SpO<sub>2</sub> Measurement](spo2_measurements.md) &#128214;
     - [SpO<sub>2</sub> Solutions](spo2_solutions.md) &#10004;
     - [SpO<sub>2</sub> MediBrick](SPO2_Board/README.md) &#128194;
-        - [Assembly Instructions](SPO2_Board/assembly.md) &#128736;
 - **Temperature and Strain Gauges**
     - [Temperature Measurement](temperature_measurements.md) &#128214;
     - [Temperature Solutions](temperature_solutions.md) &#10004;
-    - [Temperature MediBrick](Thermistor_Board/README.md) &#128194;
-        - [Assembly Instructions](Thermistor_Board/assembly.md) &#128736;
+    - [Temperature MediBrick](https://github.com/MediBrick/Thermistor_Brick) &#128194;
 - **Acceleration, Gyration, Compass and Pressure Solution**
     - [Activity Measurements with Inertial Measurement Unit](imu_measurements.md)&#128214;
     - [Inertial Measurement Unit Solutions](imu_solutions.md) &#10004;
     - [IMU MediBrick](IMU_Board/README.md)&#128194;
-        - [Assembly Instructions](IMU_Board/assembly.md) &#128736;
-    - IMU MediBrick v2. Not available yet, but should include Real Time Kinematic GPS such as [ZED-F9P](https://www.u-blox.com/en/product/zed-f9p-module)
+    - IMU MediBrick v2, future includes Real Time Kinematic GPS such as [ZED-F9P](https://www.u-blox.com/en/product/zed-f9p-module)
 - **Air Quality**
     - [Airquality Measurement](airquality_measurements.md)&#128214;
     - [Airquality Solutions](airquality_solutions.md) &#10004;
     - [Airquality MediBrick](Airquality/README.md) &#128194;
-        - [Assembly Instructions](Airquality/assembly.md) &#128736;
 - **Lung Capacity**
     - Not available yet, will likely be based on Sensirion [SFM3304-D](https://sensirion.com/products/catalog/SFM3304-D)
-
+- **Heater - Cooler**
+    - Not available yet, will likely be based on Sensirion [SFM3304-D](https://
+  - 
 ## Microcontroller and Software
 
 - [Software and Programming](microcontroller_programming.md) 
