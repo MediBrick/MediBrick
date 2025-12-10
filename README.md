@@ -96,7 +96,7 @@ Education Content: &#128214;, Sources used to find a solution: &#10004;, Solutio
 - **Lung Capacity**
     - Not available yet, will likely be based on Sensirion [SFM3304-D](https://sensirion.com/products/catalog/SFM3304-D)
 - **Heater - Cooler**
-    - Not available yet
+    - [Power Control Solutions](power_solutions.md) &#10004;
 - **Mouse - Mic**
     - Not available yet, likely based on [SN-lab](https://github.com/sn-lab/Mouse-Breathing-Sensor)
 
