@@ -17,39 +17,57 @@
 ## Discrete Builds
 
 ### Gate driver IR2113 and FET IRF3205
-*obsolet design*
+IRF3205 is *outdate design*
 
 - requires 12V gate driver
-- IRF3205 55V, 110A, 8mOhm
+- IRF3205 55V, 110A, 8mOhm, $1.45
 - requires careful timing
 - external current Senses
 - allows for high switching rates
 
 Optimizations with replacement parts
 
-Bridge: 
-- AOI4184 (40V, 50A, 8mOhm), not commonly available
-- BSC340N08(80V,7/23A 34mOhm), $1.30
-- IPB017N10N5 (100V, 180A, 1.7mOhm) $6.25
+Replace FET with:
 
-Gate Driver:
-- IRS200x (IRS2005, 20V, 100kHz, no disable)
-- IRS210x (IRS2110STRPBF) 
-- HIP4081A
+| Device | Voltage | Current | RDS ON | Price
+| --- | --- | --- | --- | --- |
+| IRLB3034 | 40V | 195-300A | 1.7mOhm | $2-4, end of life
+| IRLB8743 | 30V | 150A | 3.2mOhm | $ 0.7-1.5 
+| BSC010NE2LS | 25V |  100A | 1.1mOhm | $3-5
+| AOI4184 | 40V | 40-50A| 7-8 mOhm | $0.7
+| AOI518 | 30V | 54A | 8mOhm | obsolete
+| BSC340N08 | 80V | 23A | 34mOhm | $1.30
+| IPB017N10N5 | 100V |  120-180A| 1.5mOhm | $5-7
+| IPB017N06N5 | 60V |  100-180A|  1.7mOhm | $6.25
+| IPP034N06L3 | 30V | 80A | 3.4mOhm | $1-2 restricted availability
+| STN3NF06L | 60V | 4A | 100mOhm | $1.59
+| FQP30N06L | 60V | 32A | 35mOhm | $1.8
+| **onsemi RFP50N06** | 60V | 50A | 22mOhm | $0.83
+| NTE2996   | 60V | 84A  | 12mOhm | $2.85
+
+Gate Driver for RFP50N06:
+
+- UCC27211A 12V gate, simple no current sense, half bridge, $2.60
+- IRS2186 10-20V gate, simple not current sense, half bridge $1.95
+- **MP6528** 12V gate, full bridge, protection circuits, for 5-60V FET $2.51 (no stock JLPCP, in stock US)
+- Smart Gate Driver, full bridge [DRV8701](https://www.ti.com/product/DRV8701) $2.85, for 45V FET.
 
 ### "Smart" H Bridge: Infinion BTS7960 / BTN7970 / BTN8982
 *breakout board available*
 
 builtin protection, simpler
-- BTN7960 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, none stock
-- BTN7970 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, $5 
-- BTN8982 40V, 44A, 25kHz, 20mOhm, 5V logic, current sense (newer) $ 3.8 in China
 
-requires 3V to 5V logic buffer with TI SN74HCS244 to operate with 3.3V microcontrollers
+half bridge:
+- BTS7960 45V, 43A, 25kHz, 16mOhm, 5V logic, current sense, no stock china, USA
+- BTN7960 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, no stock
+- BTN7970 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, $5 obsolete
+- **BTN8982** 40V, 44A, 25kHz, 20mOhm, 5V logic, current sense (newer) $ 3.8 in China $5.6 in US
+
+Requires 3V to 5V logic buffer with TI SN74HCS244 to operate with 3.3V micro controllers
+
+Also check out example design from infinion on [hackster](https://www.hackster.io/infineon/products/dc-motor-control-shield-with-btn8982ta?ref=project-0f6579)
 
 P = I x R x I = 160*0.02 = 3.2 W heat @ 40A
-
-This is high currrent and high voltage solution but it requires two half bridges per channel. 
 
 
 ### Integrated H Bridge DRV8874 / DRV8876 / DRV887x
@@ -65,7 +83,7 @@ simple interface
 
 P = I x R x I 36*0.2 = 7.2 W heat @ 6A
 
-This is lower cost and fully integrated solution but thermal management at 6A will require careful design or 
+This is lower cost and fully integrated solution but thermal management at 6A will require careful design as it has high RDSON
 
 ### Half H Bridge DRV81XX
 - DRV8145 4.5 - 35V, 46A, 16mOhm, 125kHz, $6.87, half bridge only
