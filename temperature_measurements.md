@@ -35,11 +35,11 @@ int32_t R_thermistor = int32_t ( ( uint64_t(R3) * uint64_t(Vin*R2 - Vdiff*(R1+R2
 <a href="https://www.thinksrs.com/downloads/programs/therm%20calc/ntccalibrator/ntccalculator.html" target="_blank"> <img src="assets/Steinhart.png"  height="300px"></a> 
 
 
-The equation provides a formula to model the resistance of the thermistor based on 3 calibration values A, B and C. These are manufacturer provided and material constants but they vary for each type of thermistor. The equation is an approximation of the semiconductors resistance model.
+The equation provides a formula to model the resistance of the thermistor based on 3 calibration values A, B and C. These are manufacturer provided and material constants but they vary for each type of thermistor. The equation is an approximation of the semiconductor resistance model.
 
 $\frac{1}{T} = A + B ln(R) + C (ln(R))^3$
 
-To solve the Steinhart-Hart Equation we need to use floats as we have to compute a logarithm. We will provide integer result in $100 x  Centigrades$. On some micro controllers, log and float math takes resources. Its better to average and reduce noise on the ADC readings and then applying the floating point math to the data.
+To solve the Steinhart-Hart Equation we need to use floats as we have to compute a logarithm. We will provide integer result by multiplying the float with $x 100$. On some micro controllers, log and float math takes resources. Its better to average and reduce noise on the ADC readings and then applying the floating point math to the data.
 
 ```
 float lnR = log(float(R_thermistor));                // natural logarithm

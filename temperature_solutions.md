@@ -19,8 +19,9 @@ Example suppliers for medical grade thermistors are:
 
 # Other
 - LM35 analog [sensor](https://a.co/d/cUS9JYM) inexpensive for Arduino analog in
-- X31855 i2c chip for K type thermo couple 
+- MAX31855 i2c chip for K type thermo couple 
   - [breakout board](https://www.sparkfun.com/sparkfun-thermocouple-breakout-max31855k.html)
   - [connector](https://a.co/d/6fjqobL) 
   - [thermocouple](https://a.co/d/hqKa6Qj)
 
+- MAX31855 i2c chip https://a.co/d/8kDQmsK
