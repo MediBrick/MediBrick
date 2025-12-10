@@ -38,7 +38,7 @@ IRS210x (IRS2110STRPBF)
 HIP4081A
 
 ### Smart H Bridge Infinion BTS7960 / BTN7970 / BTN8982
-*breakboard available*
+*breakout board available*
 
 builtin protection, simpler
 BTS7960 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense
