@@ -42,15 +42,23 @@ Replace FET with:
 | IPP034N06L3 | 30V | 80A | 3.4mOhm | $1-2 restricted availability
 | STN3NF06L | 60V | 4A | 100mOhm | $1.59
 | FQP30N06L | 60V | 32A | 35mOhm | $1.8
-| **onsemi RFP50N06** | 60V | 50A | 22mOhm | $0.83
+| onsemi RFP50N06| 60V | 50A | 22mOhm | $0.83
 | NTE2996   | 60V | 84A  | 12mOhm | $2.85
+| **TI CSD18532Q5B**| 60V | 100A | 3.2mOhm | $2.99 US $1.58 CHN 
+| **TI CSD18540Q5B**| 60V | 100A | 2.2mOhm | $3.05 US $1.51 CHN
 
-Gate Driver for RFP50N06:
+Gate Drivers:
 
 - UCC27211A 12V gate, simple no current sense, half bridge, $2.60
 - IRS2186 10-20V gate, simple not current sense, half bridge $1.95
-- **MP6528** 12V gate, full bridge, protection circuits, for 5-60V FET $2.51 (no stock JLPCP, in stock US)
-- Smart Gate Driver, full bridge [DRV8701](https://www.ti.com/product/DRV8701) $2.85, for 45V FET.
+- MP6528 12V gate, full bridge, protection circuits, for 5-60V FET $2.51 (no stock JLPCP, in stock US)
+
+- **Smart Gate Driver**, full bridge [DRV8701](https://www.ti.com/product/DRV8701) for 47V FET. $2.85 US, $0.59 CHN
+
+- **Smart Gate Driver**, 2 x full bridge [DRV8704](https://www.ti.com/product/DRV8704) for 47 FET.  $4.87 US, $5.54 CHN
+
+Also check out example design from Texas Instruments for [single H bridge](https://www.ti.com/tool/DRV8701EVM) and for [Dual H bridge](https://www.ti.com/tool/DRV8704EVM) with eval kit for $60.
+
 
 ### "Smart" H Bridge: Infinion BTS7960 / BTN7970 / BTN8982
 *breakout board available*
@@ -61,7 +69,7 @@ half bridge:
 - BTS7960 45V, 43A, 25kHz, 16mOhm, 5V logic, current sense, no stock china, USA
 - BTN7960 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, no stock
 - BTN7970 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, $5 obsolete
-- **BTN8982** 40V, 44A, 25kHz, 20mOhm, 5V logic, current sense (newer) $ 3.8 in China $5.6 in US
+- **BTN8982** 40V, 44A, 25kHz, 20mOhm, 5V logic, current sense (newer) $ 3.8 CHN $5.6 US
 
 Requires 3V to 5V logic buffer with TI SN74HCS244 to operate with 3.3V micro controllers
 
