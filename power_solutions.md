@@ -44,7 +44,7 @@ Replace FET with:
 | FQP30N06L | 60V | 32A | 35mOhm | $1.8
 | onsemi RFP50N06| 60V | 50A | 22mOhm | $0.83
 | NTE2996   | 60V | 84A  | 12mOhm | $2.85
-| **TI CSD18532Q5B**| 60V | 100A | 3.2mOhm | $2.99 US $1.58 CHN 
+| **TI CSD18532Q5B**| 60V | 100A | 3.2mOhm | $2.99 US $1.58 CHN
 | **TI CSD18540Q5B**| 60V | 100A | 2.2mOhm | $3.05 US $1.51 CHN
 
 Gate Drivers:
@@ -69,7 +69,7 @@ half bridge:
 - BTS7960 45V, 43A, 25kHz, 16mOhm, 5V logic, current sense, no stock china, USA
 - BTN7960 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, no stock
 - BTN7970 45V, 44A, 25kHz, 30mOhm, 5V logic, current sense, $5 obsolete
-- **BTN8982** 40V, 44A, 25kHz, 20mOhm, 5V logic, current sense (newer) $ 3.8 CHN $5.6 US
+- **BTN8982** 40V, 44A, 25kHz, 20mOhm, 5V logic, current sense (newer) $3.82 CHN $5.6 US
 
 Requires 3V to 5V logic buffer with TI SN74HCS244 to operate with 3.3V micro controllers
 
@@ -96,3 +96,8 @@ This is lower cost and fully integrated solution but thermal management at 6A wi
 ### Half H Bridge DRV81XX
 - DRV8145 4.5 - 35V, 46A, 16mOhm, 125kHz, $6.87, half bridge only
 - DRV8144 4.5 - 35V, 30A, 24mOhm $5.50, half bridge only
+
+
+## Temperature
+ADS1220
+ 

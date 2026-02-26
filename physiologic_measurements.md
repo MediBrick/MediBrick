@@ -16,13 +16,13 @@
     - Pulmonary Edema (PE)
 - Galvanic skin response (GSR), Skin Conductance Level (SCL) or Electro dermal activity (EDA)as a result of physiologic arousal
 
-**Optical Absorption** is measured with light passing through the body and tissue at different optical wavelengths extracting optical absorption properties of tissue constituents such as hemoglobin. Variation in concentration occurs during blood pressure propagation. Background such as melanin and scattering affect these readings and can reduce signal strength. When measuring with more than two wavelenghts, additional Hemoglibin species can be detected, however most common sensor elements support two wavelenghts.
+**Optical Absorption** is measured with light passing through the body and tissue at different optical wavelengths extracting optical absorption properties of tissue constituents such as hemoglobin. Variation in the signal occurs during blood pressure propagation. Background such as melanin and scattering affect these readings and can reduce signal strength. When measuring with more than two wavelengths, additional Hemoglibin species can be detected, however most common sensor elements support two wavelengths.
 
 - Pulse Plethysmo Graphy (PPG); detecting the effects of pressure waves passing by the sensor, non contact heart rate and pulse propagation
-- Blood Oxygenation
-- $SPO_2$ Pulse Oximetery, oxygen saturation
+- Blood Oxygenation: Percentage of heme molecules saturated with oxygen
+- $SPO_2$ Pulse Oximetery, oxygen saturation of the arterial blood
 
-**Temperature** is a simple measurement for increased metabolism which can be caused through viral or bacterial load as a defense mechanism to lower viral replication but also due to hyperactivity of cancer or exercise.
+**Temperature** is a simple measurement and can indicate an increased metabolism which can be caused through viral or bacterial load as a defense mechanism to lower viral replication but also due to hyperactivity of cancer or exercise.
 
 - External skin temperature
 - Internal temperature
@@ -31,7 +31,7 @@
 
 - Heart sounds (S1, S2)
 - Blood vessel sounds induced by blood pressure cuff, als know as Korotkoff sounds
-- Lung sounds
+- Lung and Airway sounds
 - Bowel sounds
 
 **Activity** expand here..
@@ -42,11 +42,11 @@
 - Speed, Acceleration
 
 Through
-- Acceleration, Gyration, Mangnetic field
+- Acceleration, Gyration, Magnetic field
 - Barometric Pressure
 - GPS (RTK)
 
-**Respiration** .. expand here
+**Respiration** expand here ..
 
 - Air Flow
 
@@ -60,17 +60,17 @@ Through
 - Presence of Volatile Organize Compounds
 - Presence of Carbon Monoxide
 
-**Cellular Structure** 
+**Cellular Structure**
 
 microscopy, expand here
 
-**Analyte Concentrations** 
+**Analyte Concentrations**
 
 expand here
 
 ## Common Medical Measurands
 
-From Medical Instrumentation, Application and Design, John G Webster
+From Medical Instrumentation, Application and Design by John G Webster
 
 | Measurement                         | Range                | Frequency Range (Hz)         | Standard Sensor or Method |
 |-------------------------------------|----------------------|------------------------------|----------------------------|

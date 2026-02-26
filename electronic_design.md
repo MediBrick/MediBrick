@@ -4,7 +4,14 @@ All electronic designs were completed with EagleCAD. The files can also be impor
 
 Files ready for submission to PCB manufacturer (PCBWay) are in each project subfolder.
 
-## Eagle CAD settings
+## KiCad Settings
+The design used the following settings:
+
+### Page
+### Grid
+### DRC
+
+## Eagle CAD Settings
 The design used the following settings:
 
 ### Grid
