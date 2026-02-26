@@ -53,11 +53,11 @@ This project consists of the following measurement devices:
 | --- | --- | --- | --- | --- | --- |
 | <a href="assets/pictures/ECG_BIOZ_Front_Closed_without_Plugins.jpg" target="_blank"> <img src="assets/pictures/ECG_BIOZ_Front_Closed_without_Plugins.jpg" width="100"> </a> | <a href="assets/pictures/Stethoscope_Front_Closed_with_Plugins.jpg" target="_blank"><img src="assets/pictures/Stethoscope_Front_Closed_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/PulseOx_Front_Closed_with_Plugins.jpg" target="_blank"><img src="assets/pictures/PulseOx_Front_Closed_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Temp_Front_Closed_with_Plugins.jpg" target="_blank"><img src="assets/pictures/Temp_Front_Closed_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/IMU_Front_Closed_without_Plugins.jpg" target="_blank"><img src="assets/pictures/IMU_Front_Closed_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Environment_Front_Closed_without_Plugins.jpg" target="_blank"><img src="assets/pictures/Environment_Front_Closed_without_Plugins.jpg" width="100"></a> |
 | <a href="assets/pictures/ECG_BIOZ_Front_Open_without_Plugins.jpg" target="_blank"><img src="assets/pictures/ECG_BIOZ_Front_Open_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Stethoscope_Front_Open_without_Plugins.jpg" target="_blank"><img src="assets/pictures/Stethoscope_Front_Open_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/PulseOx_Front_Open_without_Plugins.jpg" target="_blank"><img src="assets/pictures/PulseOx_Front_Open_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Temp_Front_Open_with_Plugins_2.jpg" target="_blank"><img src="assets/pictures/Temp_Front_Open_with_Plugins_2.jpg" width="100"></a> | <a href="assets/pictures/IMU_Front_Open_with_Plugins.jpg" target="_blank"><img src="assets/pictures/IMU_Front_Open_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Environment_Front_Open_with_Plugins_2.jpg" target="_blank"><img src="assets/pictures/Environment_Front_Open_with_Plugins_2.jpg" width="100"></a> |
-| **Spirometer** | **Mouse Monitor** | **Heater - Cooler** | **DC - Controller** | **BLDC - Controller** |  |
+| **Spirometer** 2026 | **Mouse Monitor** future | **Heater - Cooler**  2026 | **DC - Controller** 2026| **BLDC - Controller** future | Your Suggestion |
 | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Lung Capacity closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Mouse Mic closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Heater - Cooler closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="DC - Controller closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="BLDC - Controller closed box not available yet"></a> |  |
 | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Lung Capacity open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Mouse Mic open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Heater - Cooler open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="DC - Controller open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="BLDC - Controller open box not available yet"></a> |  |
 
-The project files are organized into Education Content: &#128214;, Sources used to find a solution: &#10004;, Solution: &#128194;, Assembly Instructions: &#128736;, Software: &#128200;
+The project files are organized into Education Content: &#128214;, Sources used to determine a solution: &#10004;, Solution: &#128194;, Assembly Instructions: &#128736;, Software: &#128200;
 
 
 - **General Physiology Background**
@@ -70,6 +70,7 @@ The project files are organized into Education Content: &#128214;, Sources used 
 - **Bio Impedance Solutions**
     - [Impedance Measurement](impedance_measurements.md) &#128214;
     - [Impedance Solutions](impedance_solutions.md) &#10004;
+    - [ECG & BIOZ MediBrick](https://github.com/MediBrick/ECG_BIOZ_Brick) sane as ECG  MediBrick &#128194;
     - [Impedance MediBrick (not recommended)](https://github.com/MediBrick/BIOZ_Brick) based on AD5933
 - **Stethoscope and Sound**
     - [Sound Measurement](sound_measurement.md)&#128214;
@@ -99,11 +100,11 @@ The project files are organized into Education Content: &#128214;, Sources used 
     - [Spirometer MediBrick](https://github.com/MediBrick/Airflow_Brick) &#128194;
 - **Heater - Cooler**
     - [Power Control Solutions](power_solutions.md) &#10004;
-- **Mouse - Mic**
-    - Not available yet, likely based on [SN-lab](https://github.com/sn-lab/Mouse-Breathing-Sensor)
-- **DC - Controller**
+- **DC Power - Controller**
     - [Power Control Solutions](power_solutions.md) &#10004;
     - [DC Controller MediBrick](https://github.com/MediBrick/DC_Power_Brick) &#128194;
+- **Mouse - Mic**
+    - Not available yet, likely based on [SN-lab](https://github.com/sn-lab/Mouse-Breathing-Sensor)
 - **BLDC - Controller**
     - Not available yet
 
@@ -143,7 +144,7 @@ Charging Station
 | **Bio Potential and BIOZ** | Completed | Untested | Untested | Driver incomplete | Working on
 | **Spirometer**        | Completed | Completed | Ongoing | Completed | Working on |
 | **Heater - Cooler**   | N.A. | Incomplete | N.A. | N.A. | N.A. |
-| **DC-Power**          | N.A. | Completed | Ongoing | N.A. | N.A. |
+| **DC - Power**        | N.A. | Completed | Ongoing | N.A. | N.A. |
 | **Mouse Monitor**     | N.A. | Concept | N.A. | N.A. | N.A. |
 | **BLDC - Controller** | N.A. | N.A. | N.A. | N.A. | N.A. |
 | Protoype Sound w third arty ES8388 | Completed | Completed | Completed | Completed | N.A. |  
