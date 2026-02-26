@@ -70,7 +70,7 @@ The project files are organized into Education Content: &#128214;, Sources used 
 - **Bio Impedance Solutions**
     - [Impedance Measurement](impedance_measurements.md) &#128214;
     - [Impedance Solutions](impedance_solutions.md) &#10004;
-    - [ECG & BIOZ MediBrick](https://github.com/MediBrick/ECG_BIOZ_Brick) sane as ECG  MediBrick &#128194;
+    - [ECG & BIOZ MediBrick](https://github.com/MediBrick/ECG_BIOZ_Brick) same as ECG  MediBrick &#128194;
     - [Impedance MediBrick (not recommended)](https://github.com/MediBrick/BIOZ_Brick) based on AD5933
 - **Stethoscope and Sound**
     - [Sound Measurement](sound_measurement.md)&#128214;
