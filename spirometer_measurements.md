@@ -1,11 +1,14 @@
 **Introduction to Spirometry and Lung Volumes**
 
-Spirometry is a fundamental respiratory test used to assess lung function by measuring the volume and flow of air during inhalation and exhalation. The test provides insights into a patient's breathing patterns and can be used to detect and monitor respiratory diseases. The Figure below shows the key lung volumes measures which includes:
+Spirometry is a fundamental respiratory test used to assess lung function by measuring the volume and flow of air during inhalation and exhalation. The test provides insights into a patient's breathing patterns and can be used to detect and monitor respiratory diseases. The figure below shows the key lung volume measures, which include:
 
 ![Figure 1. Example spirogram showing lung volume as a function of time](assets/spirogram_time_volume.jpg)
 
+[source](https://histology.oit.duke.edu/MBS/Videos/Phys/Phys%205.2%20Resp%20Lung%20Volumes/Phys%205.2%20Resp%20Lung%20Volumes.pdf)
+
+
 - **Tidal Volume (TV):** The amount of air inhaled or exhaled during normal, resting breathing (typically 400–600 mL).
-- **Inspiratory Reserve Volume (IRV):** Additional air that can be forcibly inhaled after a normal inhalation (~ above 1700 mL).
+- **Inspiratory Reserve Volume (IRV):** Additional air that can be forcibly inhaled after a normal inhalation (typically >1700 mL).
 - **Expiratory Reserve Volume (ERV):** Additional air that can be forcibly exhaled after a normal exhalation (~800–1200 mL).
 - **Residual Volume (RV):** Air remaining in the lungs after maximal exhalation (~1200 mL); not measurable by spirometry.
 - **Inspiratory Capacity (IC):** Maximum air that can be inhaled after a normal exhalation; **IC = TV + IRV.**
@@ -13,10 +16,12 @@ Spirometry is a fundamental respiratory test used to assess lung function by mea
 - **Vital Capacity (VC):** Maximum amount of air that can be exhaled after a maximal inhalation; **VC = IRV + TV + ERV**.
 - **Total Lung Capacity (TLC):** Total volume the lungs can hold; **TLC = VC + RV.**
 - **Forced Vital Capacity (FVC):** The total amount of air exhaled during a forced breath (~3000–5000 mL).
-- **FEV₁%:** The percentage of the FVC exhaled in the first second; this value helps assess obstruction ( +%90).
+- **FEV₁%:** The percentage of the FVC exhaled in the first second; this value helps assess obstruction (~90%+ in normal lungs).
 - **FEF₂₅–₇₅:** The average flow rate during the middle portion of a forced exhalation (4.5 L/s).
 
 ![Figure 2. Lung volumes and capacities measured in spirometry](assets/spirometer_lung_volumes_diagram.png)
+
+[source](https://en.wikipedia.org/wiki/Spirometry)
 
 By plotting **flow versus volume**, a spirogram is generated, providing a visual representation of lung performance. This is especially useful for distinguishing between:
 
@@ -31,10 +36,10 @@ By plotting **flow versus volume**, a spirogram is generated, providing a visual
 | Measured Value | Normal | Obstructive (Reduced Flow) | Restrictive (Reduced Capacity) |
 | Lung Volumes (TV, IRV and ERV) | Normal: Equal or more than the expected volumes | Normal: About the expected volumes | Low: Significantly less than expected volumes |
 | FVC | Normal | Normal | Low: Lungs move less than the normal amount of air |
-| FEV₁% | Normal: 90%+ | Low: Less than ~70% of normal air flow | Normal: Airflow is normal |
+| FEV₁% | Normal: 90%+ | Low: Less than ~70% of normal airflow | Normal: Airflow is normal |
 | FEF₂₅–₇₅ | Normal: Equal or more than the normal value | Low: Significantly less than normal | Normal: Airflow is normal |
 
-Case Analysis.
+Case Analysis
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -69,66 +74,64 @@ Case Analysis.
 
 **Preface:**
 
-The spirometer brick is a part of _MediBrick Project_. This spirometer device is designed specifically for educational demonstration and student experiments. The goal is to help learners understand the physics behind respiratory mechanics and thermal mass flow sensing, rather than to provide medical diagnostic results. By visualizing real-time flow data and calculated volume, students can connect theoretical principles with hands-on measurement.
+The spirometer brick is part of the _MediBrick Project_. This spirometer device is designed specifically for educational demonstration and student experiments. The goal is to help learners understand the physics behind respiratory mechanics and thermal mass flow sensing, rather than to provide medical diagnostic results. By visualizing real-time flow data and calculated volume, students can connect theoretical principles with hands-on measurement.
 
 **Composition of spirometer:**
 
 The spirometer is mainly composed of these parts:
 
-- Mouth piece
-- Inbtubation tube
+- Mouthpiece
+- Airflow tube
 - Flow sensor
 
-![Figure 7. Flow sensor setup showing airflow path from breathing mask to sensor](assets/spirometer_setup.jpg)
+(Other electronics will be added later.)
+
+![Figure 7. Flow sensor setup showing airflow path from breathing mask to sensor](./assets/spirometer_setup.jpg)
 
 **Basic principle**
 
-The flow sensor used in this project is SFM3300-D. This is a thermal mass flow rate sensor that directly measures airflow. It has a bidirectional range (±250 slm) and outputs a digital flow value. Because it provides real-time flow data for both inhalation and exhalation, we do not require a separate differential pressure sensor to generate the spirogram (Flow vs Volume curve). This simplifies the design and enhances measurement accuracy for educational and demonstration purposes.
+The flow sensor used in this project is the SFM3300-D. This is a thermal mass flow-rate sensor that directly measures airflow. It has a bidirectional range (±250 slm) and outputs a digital flow value. Because it provides real-time flow data for both inhalation and exhalation, we do not require a separate differential pressure sensor to generate the spirogram (flow vs. volume curve). This simplifies the design and enhances measurement accuracy for educational and demonstration purposes.
 
-SFM3300-D uses Thermal Mass Flow Sensing technology.
+The SFM3300-D uses thermal mass flow sensing technology.
 
 Equation 1. Convective heat transfer relation
-$$\dot{Q} = hA\,(T_h - T_g)$$
 
-This equation is derived from the traditional theory of heat transfer and is the physical basis of the principle of thermal mass flow detection.
+$$\dot Q = hA(T_h - T_g)$$
 
-The working mechanism of SFM3300-D is based on this type of convective heat transfer and temperature difference detection. As the airflow passes through the sensor, it carries away the heat from the heating membrane, which calculates the mass flow rate by detecting changes in temperature difference, The heat-loss rate $\dot{Q}$ is proportional to the mass flow rate :
 
-Equation 2. Heat loss rate and mass flow relation
-$$\dot{Q} \propto \dot{m} = \rho A v$$
+This equation is derived from heat-transfer theory and is the physical basis of thermal mass flow detection.
 
-where 𝜌 is gas density, 𝐴 is the cross-sectional area, and 𝑣 is the average velocity.
+The working mechanism of the SFM3300-D is based on convective heat transfer and temperature-difference detection. As airflow passes through the sensor, it carries heat away from the heating membrane. The sensor calculates mass flow rate by detecting these temperature-difference changes. The heat-loss rate $\dot Q$ is proportional to the mass flow rate $\dot m$:
 
-Although the sensor measures rather than 𝑣, its digital output is converted to a standardized volume-flow rate​: $Q_{slm}$ under reference conditions:
+$$\dot Q \propto \dot m = \rho A \nu$$
 
-Equation 3. Standardized volume flow definition
-$$Q_{\mathrm{slm}} = \dfrac{\dot{m}}{\rho_{\mathrm{std}}}$$
+where $\rho$ is gas density, $A$ is the cross-sectional area, and $\nu$ is the average velocity.
+
+Although the sensor measures mass flow rather than velocity $\nu$, its digital output is converted to a standardized volume-flow rate $Q_{slm}$
+
+under reference conditions:
+
+$Q_{slm} = \dot m / \rho_{std}$
 
 Lung volumes are obtained by time integration:
 
-Equation 4. Lung volume integration and velocity definition
-
-$$
-V = \int_{0}^{T} Q(t)\, dt,
-\qquad
-v(t) = \frac{Q(t)}{A}
-$$
+$V := \int_{0}^{T} Q(t)\,dt, \qquad v(t) := \frac{Q(t)}{A}$
 
 Thus, the sensor’s flow-rate output effectively represents the average airflow speed inside the device.
 
-In conventional airflow measurement, the gas density 𝜌 is assumed constant. However, in human exhalation, the molar mass 𝑀 and temperature 𝑇 both increase compared to ambient air, according to the ideal-gas law:
+In conventional airflow measurement, the gas density $\rho$ is assumed constant. However, in human exhalation, the molar mass $M$ and temperature $T$ both increase compared to ambient air, according to the ideal-gas law:
 
-Equation 5. Ideal gas density relation
-$$\rho = \frac{P\,M}{R\,T}$$
+$\rho = PM / RT$
 
-where 𝑅 is the universal gas constant and 𝑃 is pressure. Typical changes in 𝑀 (due to added CO₂ and H₂O) and in 𝑇 (warmer exhaled air) cause 𝜌 to vary by about 2–5 %. If the system assumes a fixed density when converting flow to volume, this produces a proportional error in the computed lung volume:
+where $R$ is the universal gas constant and $P$ is pressure. Typical changes in $M$ (due to added CO₂ and H₂O) and in $T$ (warmer exhaled air) cause $\rho$ to vary by about 2-5%. If the system assumes a fixed density when converting flow to volume, this produces a proportional error in the computed lung volume:
 
-Equation 6. Volume error due to density variation
-$$\frac{\Delta V}{V} \approx \frac{\Delta \rho}{\rho}$$
+$$\Delta V / V \approx \Delta \rho / \rho$$
 
-That means a 5 % density change would lead to roughly a 5 % volume-calculation error.
+That means a 5% density change would lead to roughly a 5% volume-calculation error.
 
-The SFM3300-D avoids this problem by directly measuring mass flow rather than velocity or volume flow. Because the measured variable already includes $\rho$. The sensor output inherently compensates for these density variations. Its on-chip digital temperature sensor further corrects for residual thermal effects, maintaining an accuracy of ±3 % of reading and only ±0.4 % per 10 °C temperature drift. These compensations are based on dry-air calibration. When measuring exhaled breath containing water vapor and CO₂, the gas properties slightly differ from the dry-air model, so an additional BTPS correction need to be applied in the spirometer software.
+The SFM3300-D avoids this problem by directly measuring mass flow rather than velocity or volume flow, because the measured variable already includes $\rho$.
+
+The sensor output inherently compensates for these density variations. Its on-chip digital temperature sensor further corrects for residual thermal effects, maintaining an accuracy of ±3% of reading and only ±0.4% per 10 °C temperature drift. These compensations are based on dry-air calibration. When measuring exhaled breath containing water vapor and CO₂, the gas properties slightly differ from the dry-air model, so an additional BTPS correction needs to be applied in the spirometer software.
 
 **Flow Measurement: Pressure Drop vs Thermal Sensing**
 
@@ -141,3 +144,7 @@ By measuring mass flow directly, the SFM3300-D also inherently accounts for chan
 Although a pressure sensor is not required for spirometry, adding one could expand the functionality of the device. For example, airway pressure monitoring is essential in applications like CPAP therapy, mechanical ventilation, and anesthesia machines. In these systems, pressure data is used to control airflow, protect the airway, and detect patient-triggered breathing efforts.
 
 Sensirion’s evaluation kit for the SFM3300 series includes a clip-on module with a built-in pressure sensor, demonstrating how pressure sensing can be incorporated into a flow-based system. In future iterations, we may add such a sensor to study airway pressure dynamics alongside flow, further enriching the educational experience.
+
+**Directions for use:**
+
+(To be added: full components list, schematics, step-by-step assembly instructions, software/operation instructions, CAD models, and electronics.)

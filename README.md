@@ -2,9 +2,8 @@
 
 A cost-effective Solution for Biomedical Measurements.
 
-Urs Utzinger, 10/2024 and capstone teams: 24052 (2023/24), 23094 (2022/23).
+Urs Utzinger, and engineering capstone teams: 24052, 23094, 26048.
 Biomedical Engineering Department, College of Engineering, The University of Arizona.
-
 
 <img src="assets/Concept.png" height="200px">
  
@@ -124,9 +123,16 @@ To visualize data use [SerialUI](https://github.com/uutzinger/SerialUI) &#128200
 - [PCB Manufacturing](pcb_manufacturing.md): Settings for PCBWay.
 
 ### Enclosures
-| Assembly| Top | Bottom |
-| ------- | ------ |  ------ |
-| <a href="https://cad.onshape.com/documents/11cbfe9c3c739b6e8ecbf3d7/w/989b564ecd7f6d069e643ac0/e/85542f706be8cc7554218e8d" target="_blank"> <img src="./Housing Models/Assembly.jpg" width="100"></a> | <a href="https://cad.onshape.com/documents/be6b7e5f847d89f3ec5eb9d5/w/761fee9865ca7ef709028476/e/ff897b4f359cec83b782ff14" target="_blank"> <img src="./Housing Models/Brick-Board.jpg" width="100"></a> | <a href="https://cad.onshape.com/documents/92ad78475e8f0b17ff5e260b/w/88a02abbcb12cdbd4d9de3ad/e/fb79ca58ad2b6a0298e9d1b6" target="_blank"> <img src="./Housing Models/Brick-Microcontroller.jpg" width="100"></a> |
+| Assembly| Top | Bottom | Top with Display |
+| ------- | ------ |  ------ | ------ |
+| <a href="https://cad.onshape.com/documents/11cbfe9c3c739b6e8ecbf3d7/w/989b564ecd7f6d069e643ac0/e/85542f706be8cc7554218e8d" target="_blank"> <img src="./Housing Models/Assembly.jpg" width="100"></a> | <a href="https://cad.onshape.com/documents/ebcdcbc3e7eb802e05aa7127/w/92c7f2c4a3604ac0392e9e89/e/23d2cedb30284d3e07ce3fd7" target="_blank"> <img src="./Housing Models/Brick-Board.jpg" width="100"></a> | <a href="https://cad.onshape.com/documents/3fee40e68f3fb61ffdb812bb/w/65bb78ada38672d141a5d154/e/0ff82183503e2fd6c450e151" target="_blank"> <img src="./Housing Models/Brick-Microcontroller.jpg" width="100"></a> | <a href="https://cad.onshape.com/documents/c77dd983220b67f240ac3c83/w/46a38f84b86eeefe1a16b563/e/cb5fcb49f9eac92ef2c0d8fc" target="_blank"> <img src="./Housing Models/Brick-Microcontroller-Display.png" width="100"></a>|
+| Generic 3D Printer  | [3mf](/Housing%20Models/Brick-Top-v2.2.3mf)      | [3mf](/Housing%20Models/Brick-Bottom-v2.2.3mf)| [3mf](/Housing%20Models/Brick-Top-Display-v2.2.3mf)
+| Bambu 3D Printer | [3mf Bamu](/Housing%20Models/Brick-Top-v2.2-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Brick-Bottom-v2.2-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Brick-Top-Display-v2.2-Bambu.3mf) |
+
+Face Plates (Working on it)
+- [ECG & BIOZ Interface Plate](https://cad.onshape.com/documents/4b23bdc1fe41aa5490b46d9c/w/fd4737f6a1ca7fbcd3b1d7f7/e/89122d5ddac798ebf451ad60)
+- [Pulse Oximeter]()
+- [Spirometer]()
 
 Receiver
 

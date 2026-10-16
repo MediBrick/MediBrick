@@ -36,7 +36,7 @@
 - Size: 70x70 (all boards in this project)
 - Quantity 5
 - Layers: 2
-- Material: FR-4, TG 150-60
+- Material: FR-4, TG 150-160
 - Thickness 1.6
 - Min spacing 6mil
 - Min hole size 0.3, except for micro via boards (BIOZ)
