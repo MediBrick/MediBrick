@@ -48,11 +48,11 @@ While there are commercial systems available [^fn1] [^fn2], there is no unifying
 ## MediBricks
 This project consists of the following measurement devices:
 
-| ECG and Impedance | Electronic Stethoscope and Blood Pressure | Pulse Oximeter | Temperature | Inertial Measurement Unit | Air Quality |
+| ECG and<br>Impedance | Stethoscope<br>and Blood<br>Pressure | Pulse<br>Oximeter | Temperature | Inertial<br>Measurement<br>Unit | Air<br>Quality |
 | --- | --- | --- | --- | --- | --- |
 | <a href="assets/pictures/ECG_BIOZ_Front_Closed_without_Plugins.jpg" target="_blank"> <img src="assets/pictures/ECG_BIOZ_Front_Closed_without_Plugins.jpg" width="100"> </a> | <a href="assets/pictures/Stethoscope_Front_Closed_with_Plugins.jpg" target="_blank"><img src="assets/pictures/Stethoscope_Front_Closed_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/PulseOx_Front_Closed_with_Plugins.jpg" target="_blank"><img src="assets/pictures/PulseOx_Front_Closed_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Temp_Front_Closed_with_Plugins.jpg" target="_blank"><img src="assets/pictures/Temp_Front_Closed_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/IMU_Front_Closed_without_Plugins.jpg" target="_blank"><img src="assets/pictures/IMU_Front_Closed_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Environment_Front_Closed_without_Plugins.jpg" target="_blank"><img src="assets/pictures/Environment_Front_Closed_without_Plugins.jpg" width="100"></a> |
 | <a href="assets/pictures/ECG_BIOZ_Front_Open_without_Plugins.jpg" target="_blank"><img src="assets/pictures/ECG_BIOZ_Front_Open_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Stethoscope_Front_Open_without_Plugins.jpg" target="_blank"><img src="assets/pictures/Stethoscope_Front_Open_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/PulseOx_Front_Open_without_Plugins.jpg" target="_blank"><img src="assets/pictures/PulseOx_Front_Open_without_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Temp_Front_Open_with_Plugins_2.jpg" target="_blank"><img src="assets/pictures/Temp_Front_Open_with_Plugins_2.jpg" width="100"></a> | <a href="assets/pictures/IMU_Front_Open_with_Plugins.jpg" target="_blank"><img src="assets/pictures/IMU_Front_Open_with_Plugins.jpg" width="100"></a> | <a href="assets/pictures/Environment_Front_Open_with_Plugins_2.jpg" target="_blank"><img src="assets/pictures/Environment_Front_Open_with_Plugins_2.jpg" width="100"></a> |
-| **Spirometer** 2026 | **Mouse Monitor** future | **Heater - Cooler**  2026 | **DC - Controller** 2026| **BLDC - Controller** future | Your Suggestion |
+| **Spirometer**<br>2026 | **Mouse<br>Monitor**<br>future | **Heater -<br>Cooler**<br>2026 | **DC -<br>Controller**<br>2026 | **BLDC -<br>Controller**<br>future | Your<br>Suggestion |
 | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Lung Capacity closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Mouse Mic closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Heater - Cooler closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="DC - Controller closed box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="BLDC - Controller closed box not available yet"></a> |  |
 | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Lung Capacity open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Mouse Mic open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="Heater - Cooler open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="DC - Controller open box not available yet"></a> | <a href="assets/pictures/placeholder-module.svg" target="_blank"><img src="assets/pictures/placeholder-module.svg" width="100" alt="BLDC - Controller open box not available yet"></a> |  |
 
@@ -129,14 +129,26 @@ To visualize data use [SerialUI](https://github.com/uutzinger/SerialUI) &#128200
 | Generic 3D Printer  | [3mf](/Housing%20Models/Brick-Top-v2.2.3mf)      | [3mf](/Housing%20Models/Brick-Bottom-v2.2.3mf)| [3mf](/Housing%20Models/Brick-Top-Display-v2.2.3mf)
 | Bambu 3D Printer | [3mf Bamu](/Housing%20Models/Brick-Top-v2.2-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Brick-Bottom-v2.2-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Brick-Top-Display-v2.2-Bambu.3mf) |
 
-Face Plates (Working on it)
-- [ECG & BIOZ Interface Plate](https://cad.onshape.com/documents/4b23bdc1fe41aa5490b46d9c/w/fd4737f6a1ca7fbcd3b1d7f7/e/89122d5ddac798ebf451ad60)
-- [Pulse Oximeter]()
-- [Spirometer]()
+### Face Plates
 
-Receiver
+[All Face Plate - 3mf Bambu](/Housing%20Models/Plate-All-Bambu.3mf)
 
-Charging Station
+| ECG and<br>Impedance | Stethoscope<br>and Blood<br>Pressure | Pulse<br>Oximeter | Temperature | Inertial<br>Measurement<br>Unit | Air<br>Quality |
+| --- | --- | --- | --- | --- | --- |
+| <a href="https://cad.onshape.com/documents/4b23bdc1fe41aa5490b46d9c/w/fd4737f6a1ca7fbcd3b1d7f7/e/89122d5ddac798ebf451ad60" target="_blank"> <img src="./Housing Models/Plate-BIOZ.png" width="100" alt="ECG and Impedance"></a> | <a href="https://cad.onshape.com/documents/06546d5c2b6ecb0931149c5d/w/2aa54258cb58c3e795c7fea9/e/823e2851771a01788a8faacf?renderMode=0&uiState=6ae0ddb90c129e27744a4ee3" target="_blank"> <img src="./Housing Models/Plate-Stet.png" width="100" alt="Electronic Stethoscope and Blood Pressure"></a> | <a href="https://cad.onshape.com/documents/bcb286d5b9de6189ba796e00/w/0a567208a5b563fc8cacc531/e/83b1b9bbadf693deafbe5817?renderMode=0&uiState=6ae0dfe921af6fd93ccd3eac" target="_blank"> <img src="./Housing Models/Plate-SpO2.png" width="100" alt="Pulse Oximeter"></a> | <a href="https://cad.onshape.com/documents/dac7e67c5b0270015712d245/w/d60526c34fb0e9aab2c02a4b/e/8ff2bfb0681baf7e99de5ea6?renderMode=0&uiState=6ae0dddc6de4d7ca6fd8081f" target="_blank"> <img src="./Housing Models/Plate-Temp.png" width="100" alt="Temperature"></a> | <a href="https://cad.onshape.com/documents/eb58e78174fdb2053487973b/w/903e17c4126fb90e8782ab92/e/d48348f9b25ba3f16b712f17?renderMode=0&uiState=6ae0ddf926be22b8c4e38dbd" target="_blank"> <img src="./Housing Models/Plate-Activity.png" width="100" alt="Inertial Measurement Unit"></a> | <a href="https://cad.onshape.com/documents/6f9a87cae125641fc3a0651c/w/6e25f32c6ac446efd4e51be7/e/a5b61964693009981eab589c?renderMode=0&uiState=6ae0de19acf0aa66b2cc3514" target="_blank"> <img src="./Housing Models/Plate-Env.png" width="100" alt="Air Quality"></a> |
+| [3mf](/Housing%20Models/Plate-BioZ.3mf) | [3mf](/Housing%20Models/Plate-Stet.3mf) | [3mf](/Housing%20Models/Plate-SpO2.3mf) | [3mf](/Housing%20Models/Plate-Temp.3mf) | [3mf](/Housing%20Models/Plate-IMU.3mf) | [3mf](/Housing%20Models/Plate-Env.3mf) |
+| [3mf Bambu](/Housing%20Models/Plate-BioZ-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Plate-Stet-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Plate-SpO2-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Plate-Temp-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Plate-IMU-Bambu.3mf) | [3mf Bambu](/Housing%20Models/Plate-Env-Bambu.3mf) |
+| **Spirometer** | **Mouse<br>Monitor**<br>future | **Heater -<br>Cooler** | **DC -<br>Controller** | **BLDC -<br>Controller**<br>future | Your<br>Suggestion |
+| <a href="https://cad.onshape.com/documents/46a5928b4676a5c421e437e3/w/b54629e17e0805c84654254a/e/496a4d7b998282ef1a835923?renderMode=0&uiState=6ae0e053a244174fd640cdd0" target="_blank"> <img src="./Housing Models/Plate-Spiro.png" width="100" alt="Spirometer** 2026 faceplate"></a> | <a href="./assets/pictures/placeholder-module.svg" target="_blank"> <img src="./assets/pictures/placeholder-module.svg" width="100" alt="Mouse Monitor future faceplate not available yet"></a> | <a href="./assets/pictures/placeholder-module.svg" target="_blank"> <img src="./assets/pictures/placeholder-module.svg" width="100" alt="Heater - Cooler 2026 faceplate not available yet"></a> | <a href="./assets/pictures/placeholder-module.svg" target="_blank"> <img src="./assets/pictures/placeholder-module.svg" width="100" alt="DC - Controller 2026 faceplate not available yet"></a> | <a href="./assets/pictures/placeholder-module.svg" target="_blank"> <img src="./assets/pictures/placeholder-module.svg" width="100" alt="BLDC - Controller future faceplate not available yet"></a> |  |
+| [3mf](/Housing%20Models/Plate-Spiro.3mf) |  |  |  |  |  |
+| [3mf Bambu](/Housing%20Models/Plate-Spiro-Bambu.3mf) |  |  |  |  |  |
+
+
+### Receiver
+Not availale yet
+
+### Charging Station
+Not available yet
 
 ## Project Status
 
